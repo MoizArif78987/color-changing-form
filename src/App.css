@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+.form-billing{
+  height: auto;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 5%;
+  border-radius: 20px;
+  padding: 5%;
+
+  box-shadow: -5px 5px 10px 3px rgba(0, 0, 0, 0.5);
+}
+.form-billing p{
+  color: #40434b;
+  font-size: 20px;
+  font-weight: 500;
+}
+.showcolor{
+  height: 30px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+.colordisplay{
+  height: 10px;
+  width: 100%;
+}
+
+.picker{
+  margin-left: 22.5%;
+}
+
+@media only screen and (max-width:825px){
+  .form-billing{
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 5%;
+      box-shadow: -5px 5px 10px 3px rgba(0, 0, 0, 0.5);  
+    }
+}
